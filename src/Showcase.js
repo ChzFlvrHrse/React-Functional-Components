@@ -1,7 +1,11 @@
+let favPokemon = 'Mewtwo';
+let pokeCharacteristics = {type: 'Psychic', move: 'Psystrike'};
+
 function Showcase() {
   return (
     <div>
-      <h1>showcase component</h1>
+      <h1>{favPokemon}'s</h1>
+      pokeCharacteristics
     </div>
   )
 }
