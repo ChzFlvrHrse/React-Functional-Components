@@ -5,7 +5,7 @@ function Showcase() {
   return (
     <div>
       <h1>{favPokemon}'s</h1>
-      pokeCharacteristics
+      {pokeCharacteristics}
     </div>
   )
 }
